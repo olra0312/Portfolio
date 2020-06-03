@@ -1,0 +1,27 @@
+
+<script src="./signup.js"></script>
+
+<h1 class="has-text-centered is-size-2">Create a new user</h1>
+
+<form action="/signup" method="POST" name="signup" onsubmit="return formValidation()"
+class="has-text-centered">
+    <div>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+    </div>
+    <br>
+    <div>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+    </div>
+    <br>
+    <div>
+        <label for="confirmPassword">Confirm password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+    </div>
+    <br>
+    <div>
+        <input type="submit" name="create" value="Create" id="submit" class="button is-primary is-size-5">
+    </div>
+</form>
+

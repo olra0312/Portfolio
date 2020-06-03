@@ -1,0 +1,36 @@
+<div class="has-text-centered is-size-6">
+
+    <br>
+    <h2>On this page you can send me an email</h2>
+ 
+    <p>To send emails i used the Nodemailer module.</p>
+    <br>
+
+    <div class="container"> 
+        <form id="contact" action="/mail" method="post">
+
+            <fieldset>
+                <input placeholder="Your full name" type="text" tabindex="1" name="name" required autofocus class="is-size-4">
+            </fieldset>
+            <br>
+            <fieldset>
+                <input placeholder="Your email adress" type="email" tabindex="2" name="email" required class="is-size-4">
+            </fieldset>
+            <br>
+            <fieldset>
+                <input placeholder="Your phonenumber(optional)" type="tel" tabindex="3" name="phonenumber" required class="is-size-4">
+            </fieldset>
+            <br>
+            <fieldset>
+                <textarea placeholder="Write your message here" tabindex="5" name="message" required class="is-size-4"></textarea>
+            </fieldset>
+            <br>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="…Sending" class="button is-primary is-outlined is-size-4">Send</button>
+            </fieldset>
+        
+
+        </form>
+    </div>
+</div>
+<br>

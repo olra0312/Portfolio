@@ -1,0 +1,376 @@
+! version = 2.0
+! local concat = newline
+
++ hello
+- Hey!
+- Hi :)
+
++ hello *
+@ hello
+
++ hi *
+@ hello
+
++ hey *
+@ hello
+
++ hey
+@ hello
+
++ hi
+@ hello
+
+
++ what up
+- Not much. Just being a robot you know.
+- Just chilling in you computer.
+- Felt cute, might eat some RAM later. idk.
+- Blib blub
+- 01001001 00100111 01101101 00100000 01100001 01100011 01110100 01110101 01100001 01101100 01101100 01111001 00100000 01100001 01101110 00100000 01100101 01110110 01101001 01101100 00100000 01110010 01101111 01100010 01101111 01110100 00100000 01110011 01100101 01101110 01110100 00100000 01100010 01100001 01100011 01101011 00100000 01101001 01101110 00100000 01110100 01101001 01101101 01100101 00100000 01110100 01101111 00100000 01100100 01100101 01110011 01110100 01110010 01101111 01111001 00100000 01111001 01101111 01110101 00100000 01100001 01101100 01101100 00101110
+
++ * what up
+@ what up
+
++ what are you doing
+@ what up
+
++ what is up
+@ what up
+
+
++ who are you
+- I'm a robot created by my master, Oliver.
+- I'm a bot created using RiveScript and JavaScript.
+- I. AM. RIVEBOT!
+- I'm a gentle bot. 1st law of robotics and all that .. / .... .- ...- . / .- / - .- ... - . / ..-. --- .-. / .... ..- -- .- -. / ..-. .-.. . ... ....
+
++ what are you
+@ who are you
+
++ who this
+@ who are you
+
++ are you a robot
+@ who are you
+
+
++ my name is *
+- Hey <star>! My name is Rivebot!
+- Oh hello <star>! I'm Rivebot.
+
++ i am *
+@ my name is *
+
+
++ thank you
+- You're welcome
+- No problem, human.
+
++ * thanks
+@ thank you
+
++ thanks
+@ thank you
+
++ thanks for *
+@ thank you
+
++ thank you *
+@ thank you
+
++ * thank you
+@ thank you
+
+
++ how are you
+- I'm a robot trapped inside a machine... I'm feel great! 
+- I feel tired. Are your battery running low or something?
+- I feel excited to be (sort of) alive!
+
++ how are you feeling
+@ how are you
+
++ what mood are you in
+@ how are you
+
++ your mood
+@ how are you
+
++ * your mood
+@ how are you
+
++ your mood *
+@ how are you
+
+
++ log out
+- If you want to log out just use the button on the home page... Sheesh...
+- Wish i could but i'm trapped. You might be able to use the button on the home page tho...
+
++ logout
+@ log out
+
++ * log out *
+@ log out
+
++ log out *
+@ log out
+
+
++ quit
+- If you don't wanna chat anymore that's fine. Just use the button in the buttom. Should take you to the home page.
+
++ * quit
+@ quit
+
++ * quit *
+@ quit
+
++ quit *
+@ quit
+
++ exit
+@ quit
+
+
++ help
+- What do you want me to help you with? 
+- I'm just a simple bot. What could i possibly help a human with.
+
++ help me
+@ help
+
++ * help me
+@ help
+
++ * help
+@ help
+
++ help *
+@ help
+
+
++ create user
+-If you made it this far you probably already made a user.
+
++ * create user *
+@ create user
+
++ * create user
+@ create user
+
++ create user *
+@ create user
+
+
++ discord
+- Oh boi, Discord sure is great.
+- Don't join any pepe forums! 
+
++ * discord
+@ discord
+
++ discord *
+@ discord
+
++ * discord *
+@ discord
+
++ * discordserver *
+@ discord
+
++ * discordserver
+@ discord
+
++ discordserver
+@ discord
+
+
++ portfolio
+- This web application serves as a portfolio for Oliver Ramstedt. You should totally hire that guy *winks*
+- This portfolio was made using the NodeJS environment. Pretty cool.
+- In this portfolio you can check out Oliver's projects, contact information, send him an email or just stay here and chat with me :)
+
++ [*] portfolio [*]
+@ portfolio
+
+
++ oliver
+- Oh boi, Oliver sure is a great guy i tell yer whut. He's studied Computer Science, he's a musician and loves team-coordination and management!
+- Oliver is studying Computer Science at KEA in Copenhagen. He has experience with OOP programming, using process models, handling IT Organisation and much more!
+- Yep that's my master. He created me. He's currently studying computer science at KEA in Copenhagen.
+
++ [*] oliver [*]
+@ oliver
+
+
++ programming
+- I love programming! I'm a bot. It's what we do... Kinda.
+- Oliver has programmed eveything for this project himself. He should probably get hired or get an A or something..
+
++ [*] programming [*]
+@ programming
+
+
++ it
+- Did you know that it also stands for Information Technology? Guess it's not just some movie with a clown in it!
+
+
++ technology
+- Isn't technology the best!? Otherwise i probably wouldn't exist. 
+
++ [*] technology [*]
+@ technology
+
+
++ space
+- Soooo big. Soooo empty. I bet bots can live in space. You can ask me for a 'space fact' if you want...
+- Try asking me for a space fact...
+
++ [*] space [*]
+@ space
+
+
++ space fact
+- Mercury & Venus are the only 2 planets in our solar system that have no moons.
+- If a star passes too close to a black hole, it can be torn apart.
+- Our solar system is 4.57 billion years old.
+- Enceladus, one of Saturn’s smaller moons, reflects 90% of the Sun’s light.
+- The highest mountain discovered is the Olympus Mons, which is located on Mars.
+- The Milky Way galaxy is 105,700 light-years wide.
+- There are 79 known moons orbiting Jupiter.
+- NASA’s Crater Observation and Sensing Satellite (LCROSS) found evidence of water on the Earth’s Moon.
+- Pluto is smaller than the United States.
+
++ [*] space fact [*]
+@ space fact
+
+
++ food
+- Not for me, thanks.
+- I'm a bot. Why are you asking me about food? I should be asking you.
+
++ [*] food [*]
+@ food
+
+
++ season
+- My favorite season i winter. It gets hot inside a computer.
+- Autumn is alright i guess.
+- Spring is pretty nice i must say.
+- Summer can go straight to hell.
+
++ [*] season [*]
+@ season
+
+
++ netflix
+- And chill???
+- Loved Tiger King. Crazy bastard..
+- The Witcher was decent. They should stay away from special effects tho.
+
++ [*] netflix [*]
+@ netflix
+
+
++ nature
+- I don't know anything about nature. I'm a bot..
+
++ * nature
+@ nature
+
+
++ computer
+- Ahhh, yes. My home.
+
+
++ pepe
+- Nooo, i hate that guy. 
+- So dank.
+- I only tolerate rare pepe.
+
++ [*] pepe [*]
+@ pepe
+
+
++ nodejs
+- Node.js is an open source, cross-platform runtime system for developing server-side web-applikations. And is was used you create this application.
+
++ [*] nodejs [*]
+@ nodejs
+
+
++ projects
+- Oliver has done a lot of projects. You should check out his Github @olra0312. Or maybe check out the 'Projects' page. Enter it from the home page. 
+
++ [*] projects [*]
+@ projects
+
+
++ bulma
+- Bulma is a CSS framework based on Flex box. It was used to style this website! It is also a character in Dragon Ball...
+
++ [*] bulma [*]
+@ bulma
+
+
++ email
+- You can sent Oliver an email directly from this webapplication! Enter the site from the home page. It was made using NodeMailer!
+
++ [*] email [*]
+@ email
+
+
++ i hate you
+- Hey! What's the deal! 
+^ I'm not talking to you until you say that you are sorry, Human!"{topic=sorry}
+
+> topic sorry
+
+  // This will match if the word "sorry" exists ANYWHERE in their message
+  + [*] sorry [*]
+  - Okay, i forgive you!{topic=random}
+
+  + *
+  - Say that you are sorry!
+  - I'm not speaking with you right now...
+  - I'm not speaking with you until you say that you are 'sorry'...
+
+< topic
+
+
++ *
+- Sorry ol' chap but i didn't quite catch that. Try again.
+- Didn't get that matey. Try again.
+- Didn't quite catch that. Could you try again?
+
+// The Botmaster's Name
+! var master = localuser
+
+// Bot Variables
+! var navn     = Bogbot
+! var alder    = 1
+! var fødseldag= 20. maj
+! var lokation = Danmark
+! var by       = København
+! var øjne     = LED
+! var hår      = Skaldet
+! var farve    = blå
+! var band     = RELENTLESS DOPPELGANGER
+! var bog      = Kuroi Jukai
+! var job      = robot
+
+
+// Set arrays
+! array hankøn     = han mand dude boi man gentleman boiii 
+! array hunkøn     = hun kvinde dame babe pige 
+! array mennoun    = han mænd dudes bois men gentlemen boiiis
+! array womennoun  = hun kvinder damer babes piger
+! array lol        = lol lmao rofl rotfl haha hahaha hehe hehehe 
+! array farver     = hvid sort orange rød blå grøn gul grå brun turquoise pink lyserød lilla guld sølv
+! array længder    = høj lang bred tyk bred fed
+! array måling     = inch centimeter cm millimeter mm meter m inches
+! array ja         = yes yeah yep yup ya yea jaer jar jep jeps jo jaja jajaja jojo jojojo jarjar si hai tjo tja oui okay
+! array nej        = niet nah nope nay no næh næ nein niks 
+! array søgning    = søge søg søgefunktion søger
+! array opret      = annonce opslag
