@@ -1,6 +1,6 @@
 const { Model } = require('objection');
 
-const Elective = require('./Elective.js');
+const Comment = require('./Comments.js/index.js');
 
 class User extends Model {
     static tableName = 'users';
@@ -8,10 +8,10 @@ class User extends Model {
     static relationMappings = {
         electives: {
             relation: Model.HasManyRelation,
-            modelClass: Elective,
+            modelClass: Comment,
             join: {
               from: 'users.id',
-              to: 'electives.userId'
+              to: 'comments.userId'
             }
         }
     }

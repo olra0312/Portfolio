@@ -2,19 +2,19 @@ const { Model } = require('objection');
 
 const User = require('./User.js');
 
-class Elective extends Model {
-    static tableName = 'electives';
+class Comment extends Model {
+    static tableName = 'comments';
 
     static relationMappings = {
         user: {
             relation: Model.BelongsToOneRelation,
             modelClass: User,
             join: {
-              from: 'electives.userId',
+              from: 'comments.userId',
               to: 'users.id'
             }
         }
     }
 }
 
-module.exports = Elective;
+module.exports = Comment;

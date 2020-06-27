@@ -1,0 +1,26 @@
+
+<div class="has-text-centered" style="width: 30em; margin: auto;">
+    <h1 class="is-size-2">Public chat forum</h1>
+    <p class="is-size-4">Write a message:</p>
+    <div class="is-size-5">
+      <input id="comment" type="text" class="input">
+      <button id="submit" class="button" style="margin-top: 1em; margin-bottom: 1em;">Send</button>
+      <div id="conversation"></div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
+   <script src="./forum.js"></script>
+</div>
+<br>
+<br>
+   <div>
+    <div class="has-text-centered">
+       <form action="/home" method="GET">
+           <input type="submit" value="Back to home" 
+                name="home" id="submit" class="button is-primary" />
+       </form>
+     </div>  
+</div>
+<br>
+<br>

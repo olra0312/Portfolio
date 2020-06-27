@@ -8,9 +8,9 @@ exports.up = function(knex) {
           table.dateTime('updated_at').defaultTo(knex.raw('NULL ON UPDATE CURRENT_TIMESTAMP'));
           table.timestamp('created_at').defaultTo(knex.fn.now());
       })
-      .createTable('electives', table => {
+      .createTable('comments', table => {
         table.increments('id');
-        table.string('course_name').notNullable();
+        table.string('comment').notNullable();
 
         table.integer('user_id').unsigned().notNullable();
         table.foreign('user_id').references('users.id');

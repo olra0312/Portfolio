@@ -3,17 +3,17 @@ const router = require('express').Router();
 const User = require('../models/User.js');
 
 router.get('/users', async (req, res) => {
-    const allUsersWithElectives = await User.query().select('username').withGraphFetched('electives');
-    return res.send({ response: allUsersWithElectives });
+    const allUsersWithComments = await User.query().select('username').withGraphFetched('comments');
+    return res.send({ response: allUsersWithComments });
 });
 
-router.get('/setsessionvalue', (req, res) => {
-    req.session.payingAttention = true;
-    return res.send({ response: "OK" });
+router.get('/getUsername', (req, res) => {
+    if(req.session.login) {
+        return res.send({response: req.session})
+    }else{
+        return res.redirect("/")
+    }
 });
 
-router.get('/getsessionvalue', (req, res) => {
-    return res.send({ response: req.session.payingAttention });
-});
 
 module.exports = router;
