@@ -2,90 +2,92 @@
 <h1 class="is-size-1 has-text-weight-medium has-text-centered">Welcome to my portfolio!</h1>
 
 <br>
-<div class="columns is-desktop">
-  <div class="column">
-    <div class="has-text-centered">
-      <form action="/about" method="GET">
-          <input type="submit" value="About me" 
-               name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
-      </form>
+<div style="margin-right: 3em; margin-left: 3em;">
+  <div class="columns is-desktop">
+    <div class="column">
+      <div class="has-text-centered">
+        <form action="/about" method="GET">
+            <input type="submit" value="About me" 
+                name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
+        </form>
+    </div> 
+    </div>
+
+    <div class="column">
+      <div class="has-text-centered">
+        <form action="/projects" method="GET">
+            <input type="submit" value="My projects" 
+                name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
+        </form>
+      </div> 
+    </div>
+
+    <div class="column">
+      <div class="has-text-centered">
+        <form action="/forum" method="GET">
+            <input type="submit" value="Forum" 
+                name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
+        </form>
+      </div> 
+    </div>
   </div> 
-  </div>
-
-  <div class="column">
-    <div class="has-text-centered">
-      <form action="/projects" method="GET">
-          <input type="submit" value="My projects" 
-               name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
-      </form>
-    </div> 
-  </div>
-
-  <div class="column">
-    <div class="has-text-centered">
-      <form action="/forum" method="GET">
-          <input type="submit" value="Forum" 
-               name="Submit" id="submit" class="button is-primary is-size-4 is-rounded is-fullwidth"/>
-      </form>
-    </div> 
-  </div>
-</div> 
-<br>
-<div class="tile is-ancestor">
-    <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p class="title">About the website</p>
-        <p>You are logged in as: </p>
-        <p id="user"></p>
-        <br>
-        <p>This website and program is all made in the open source, cross-platform runtime system, NodeJS using the web framework Express. It contains my personal portfolio as a developer and information technology specialist.</p>
-        <p>It will contain personal infomation about myself, my experience, my credentials, link to my github and much more.</p>
-        <br>
-        <p>It will also contain some different features such as an email system, programmed usng the Nodemailer module, where you'll be able to send me an email with your information and a personal message.</p>
-        <p>You will also be able to ask for help using my chatbot, which has been programmed using a combination of JavaScript and RiveScript.</p>
-        <br>
-        <p>As you know by now, the website also incorporates a fully fletched login system where you'll also be able to create and login with your own account.</p>
-        <br>
-        <p>Everything on the page has been styled using the open source CSS framework <strong>Bulma</strong> which is based on the Flexbox layout module.</p>
-        <br>
-        <p>If you are logged in, the icon in the top will always redirect you to the home-page.</p>
-    </div>
-    </div>
-    <div class="tile is-4 is-vertical is-parent">
+  <br>
+  <div class="tile is-ancestor">
+      <div class="tile is-parent">
         <div class="tile is-child box">
-          <p class="title">Email</p>
-            <p>To send me an email simply push the button below to get to the email-page</p>
+          <p class="title">About the website</p>
+          <p>You are logged in as: </p>
+          <p id="user"></p>
           <br>
-        <div class="has-text-centered">
-            <form action="/mail" method="GET">
-                <input type="submit" value="Send me an email" 
-                     name="Submit" id="submit" class="button is-primary is-size-5" />
-            </form>
-        </div>        
-    
-    </div>
-        <div class="tile is-child box">
-          <p class="title">Chatbot</p>
-          <p>The button below will take you to the chabot. Ask it for help, ask it questions or say "i hate you"</p>
-          <div>
-              <br>
-              <div class="has-text-centered">
-                <form action="/chatbot" method="GET">
-                    <input type="submit" value="Go to the chatbot" 
-                         name="Submit" id="submit" class="button is-primary is-size-5" />
-                </form>
-            </div>  
-		</div>
-        </div>
+          <p>This website and program is all made in the open source, cross-platform runtime system, NodeJS using the web framework Express. It contains my personal portfolio as a developer and information technology specialist.</p>
+          <p>It will contain personal infomation about myself, my experience, my credentials, link to my github and much more.</p>
+          <br>
+          <p>It will also contain some different features such as an email system, programmed usng the Nodemailer module, where you'll be able to send me an email with your information and a personal message.</p>
+          <p>You will also be able to ask for help using my chatbot, which has been programmed using a combination of JavaScript and RiveScript.</p>
+          <br>
+          <p>As you know by now, the website also incorporates a fully fletched login system where you'll also be able to create and login with your own account.</p>
+          <br>
+          <p>Everything on the page has been styled using the open source CSS framework <strong>Bulma</strong> which is based on the Flexbox layout module.</p>
+          <br>
+          <p>If you are logged in, the icon in the top will always redirect you to the home-page.</p>
       </div>
-  </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">Email</p>
+              <p>To send me an email simply push the button below to get to the email-page</p>
+            <br>
+          <div class="has-text-centered">
+              <form action="/mail" method="GET">
+                  <input type="submit" value="Send me an email" 
+                      name="Submit" id="submit" class="button is-primary is-size-5" />
+              </form>
+          </div>        
+      
+      </div>
+          <div class="tile is-child box">
+            <p class="title">Chatbot</p>
+            <p>The button below will take you to the chabot. Ask it for help, ask it questions or say "i hate you"</p>
+            <div>
+                <br>
+                <div class="has-text-centered">
+                  <form action="/chatbot" method="GET">
+                      <input type="submit" value="Go to the chatbot" 
+                          name="Submit" id="submit" class="button is-primary is-size-5" />
+                  </form>
+              </div>  
+      </div>
+          </div>
+        </div>
+    </div>
 
-<div class="has-text-centered">
-    <form action="/logout" method="POST" name="logout">
-        <br>
-        <input type="submit" value="Log out" id="logout" class="button is-danger is-size-4 is-rounded">
-    </form>
-</form>
+  <div class="has-text-centered">
+      <form action="/logout" method="POST" name="logout">
+          <br>
+          <input type="submit" value="Log out" id="logout" class="button is-danger is-size-4 is-rounded">
+      </form>
+  </form>
+</div>
 <br>
 <br>
 </div> 

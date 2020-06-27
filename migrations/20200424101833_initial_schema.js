@@ -24,6 +24,6 @@ exports.up = function(knex) {
 
 exports.down = function(knex) {
 return knex.schema
-  .dropTableIfExists('electives')
+  .dropTableIfExists('comments')
   .dropTableIfExists('users');
 };

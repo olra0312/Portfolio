@@ -1,6 +1,6 @@
 const { Model } = require('objection');
 
-const Comment = require('./Comments.js/index.js');
+const Comment = require('./Comments.js');
 
 class User extends Model {
     static tableName = 'users';
