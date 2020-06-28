@@ -85,6 +85,8 @@ app.get("/forum", (req, res) => {
 });
 
 
+
+
  //POST
  app.post("/logout", (req, res) => {
    req.session.login = undefined;
@@ -142,9 +144,9 @@ io.on("connection", socket => {
 });
 
 
-server.listen(3001, (error) => {
+server.listen(3000, (error) => {
    if (error) {
        console.log("Error running the server");
    }
-   console.log("The server is running on port", 3001);
+   console.log("The server is running on port", 3000);
 });
